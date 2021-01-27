@@ -1,4 +1,4 @@
 ## Diary Pal
 
-Aplikacia na zjednodusenie prac s hospodarskymi zvieratami.
+Laravel & Laravel Livewire application
 
