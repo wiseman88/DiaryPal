@@ -1,0 +1,65 @@
+@tailwind base;
+ 
+@tailwind components;
+ 
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+@layer components {
+  /* Buttons */
+
+  .btn {
+    @apply font-semibold text-sm uppercase py-2 px-4 rounded; 
+  }
+
+  .btn:focus {
+    @apply outline-none ring border-blue-300;
+  }
+
+  .btn-primary {
+    @apply bg-blue-300 transition duration-100;
+  }
+
+  .btn-primary:hover {
+    @apply bg-blue-400;
+  }
+
+  .btn-danger {
+    @apply bg-red-300 transition duration-100;
+  }
+
+  .btn-danger:hover {
+    @apply bg-red-400;
+  }
+
+  .btn-success {
+    @apply bg-green-300 transition duration-100;
+  }
+
+  .btn-success:hover {
+    @apply bg-green-400;
+  }
+
+  /* Input */
+
+  .input {
+    @apply rounded border p-2
+  }
+
+  .input:focus {
+    @apply outline-none ring border-blue-300
+  }
+}
+
+@layer utilities {
+  /* Height */
+
+  .max-h-64 {
+    max-height: 16rem;
+  }
+}
