@@ -1,4 +1,4 @@
 ## Diary Pal
 
-Laravel & Laravel Livewire application
+Application using Laravel, Laravel Livewire, TailwindCSS.
 
